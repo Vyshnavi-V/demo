@@ -110,3 +110,26 @@ void armstrongnum()
 		else
 			printf("not armstrong number");
 	}
+void oddeven()
+	{
+				int num;
+				printf("Enter an integer: ");
+				scanf("%d", &num);
+
+				if(num % 2 == 0)
+					printf("%d is even.", num);
+				else
+					printf("%d is odd.", num);
+	}
+	
+void factnum()
+	{
+					int i,fact=1,number;    
+					 printf("Enter a number: ");    
+					  scanf("%d",&number);    
+						for(i=1;i<=number;i++)
+						{    
+						  fact=fact*i;    
+						}    
+					  printf("Factorial of %d is: %d",number,fact);   
+	}
